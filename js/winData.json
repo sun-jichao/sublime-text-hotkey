@@ -1,0 +1,347 @@
+{
+	"textManipulation": {
+		"data": [
+			{
+				"descJp":   "選択範囲の文字列を全て大文字にします。",
+				"descCn":   "选择范围内字符串全部变换为大写字母。",
+				"descEn":   "to Uppercase.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>K</kbd><kbd>U</kbd>"
+			},
+			{
+				"descJp":   "選択範囲の文字列を全て小文字にします。",
+				"descCn":   "选择范围内字符串全部变换为小写字母。",
+				"descEn":   "to Lowercase.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>K</kbd><kbd>L</kbd>"
+			}
+		],
+		"category": "Text manipulation"
+	},
+	"navigation": {
+		"data": [
+			{
+				"descJp":   "ファイル選択パレットを開きます。ファイル名キーワードで検索が出来ます。",
+				"descCn":   "打开文件选择面板。 您可以按文件名关键字搜索。",
+				"descEn":   "Quick-open files by name.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>P</kbd>"
+			},
+			{
+				"descJp":   "プロジェクト内の関数やクラスを検索するパレットを開きます。",
+				"descCn":   "跳转到所定义模块。",
+				"descEn":   "Goto symbol.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>R</kbd>"
+			},
+			{
+				"descJp":   "ファイル内の文字列を検索するパレットを開きます。",
+				"descCn":   "跳转到当前文件中的单词。",
+				"descEn":   "Goto word in current file.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>;</kbd>"
+			},
+			{
+				"descJp":   "行選択パレットが開き、入力した行にジャンプします。",
+				"descCn":   "跳转到当前文件所在行。",
+				"descEn":   "Goto line in current file.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>G</kbd>"
+			}
+		],
+		"category": "Navigation/Goto Anywhere"
+	},
+	"findReplace": {
+		"data": [
+			{
+				"descJp":   "検索ボックスを開きます。Escキーでボックスを閉じます。",
+				"descCn":   "打开搜索框。 使用Esc键关闭该框。",
+				"descEn":   "Find.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>F</kbd>"
+			},
+			{
+				"descJp":   "置換ボックスを開きます。Escキーでボックスを閉じます。",
+				"descCn":   "打开替换框。 使用Esc键关闭该框。",
+				"descEn":   "Replace.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>H</kbd>"
+			},
+			{
+				"descJp":   "ファイルやフォルダを指定して検索するボックスを開きます。（※置換も可能）",
+				"descCn":   "通过指定文件和文件夹打开搜索框。（※替换也可以）",
+				"descEn":   "Find in files.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>&#x21E7;</kbd>+<kbd>F</kbd>"
+			}
+		],
+		"category": "Find/Replace"
+	},
+	"general": {
+		"data": [
+			{
+				"descJp":   "ユーザー設定ファイル(Preferences.sublime-settings)を開きます。",
+				"descCn":   "打开配置(Preferences)文件。",
+				"descEn":   "Open the Setting (Preferences) file.",
+				"keypress": ""
+			},
+			{
+				"descJp":   "コマンドパレットを開きます。",
+				"descCn":   "打开命令面板。",
+				"descEn":   "Cmd prompt.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>&#x21E7;</kbd>+<kbd>P</kbd>"
+			},
+			{
+				"descJp":   "サイドバーの表示/非表示を切り替えます。",
+				"descCn":   "显示/隐藏侧边栏。",
+				"descEn":   "Side bar.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>K</kbd><kbd>B</kbd>"
+			},
+			{
+				"descJp":   "カーソルのある文字列のスコープを、ステータスバーに表示します。",
+				"descCn":   "带有光标的字符串的范围显示在状态栏中。",
+				"descEn":   "Show scope in status bar.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>&#x21E7;</kbd>+<kbd>Alt</kbd>+<kbd>P</kbd>"
+			}
+		],
+		"category": "General"
+	},
+	"bookmarks": {
+		"data": [
+			{
+				"descJp":   "カーソルのある行をブックマークします。もう一度同じ操作をすることでブックマークを解除します。",
+				"descCn":   "使用光标为该行添加书签。 您可以通过再次执行相同的操作来取消书签。",
+				"descEn":   "Bookmark.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>F2</kbd>"
+			},
+			{
+				"descJp":   "次のブックマークに移動します。",
+				"descCn":   "移动到下一个书签。",
+				"descEn":   "Next bookmark.",
+				"keypress": "<kbd>F2</kbd>"
+			},
+			{
+				"descJp":   "一つ前のブックマークに移動します。",
+				"descCn":   "移动到上一个书签。",
+				"descEn":   "Previous bookmark.",
+				"keypress": "<kbd>&#x21E7;</kbd>+<kbd>F2</kbd>"
+			},
+			{
+				"descJp":   "登録済みブックマークを全て解除します。",
+				"descCn":   "清除所有已添加的书签。",
+				"descEn":   "Clear bookmark.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>&#x21E7;</kbd>+<kbd>F2</kbd>"
+			}
+		],
+		"category": "Bookamrks"
+	},
+	"splitWindow": {
+		"data": [
+			{
+				"descJp":   "ビューを縦2列に分割します。",
+				"descCn":   "将编辑区屏幕分为2列。",
+				"descEn":   "Split view into two columns.",
+				"keypress": "<kbd>Alt</kbd>+<kbd>&#x21E7;</kbd>+<kbd>2</kbd>"
+			},
+			{
+				"descJp":   "分割されたビューを一つに戻します。",
+				"descCn":   "将编辑区屏幕重置为1列。",
+				"descEn":   "Revert view to 1 column.",
+				"keypress": "<kbd>Alt</kbd>+<kbd>&#x21E7;</kbd>+<kbd>1</kbd>"
+			},
+			{
+				"descJp":   "ビューをグリッド形式に4分割します。",
+				"descCn":   "将编辑区设置为格状。",
+				"descEn":   "Set view to grid(4groups).",
+				"keypress": "<kbd>Alt</kbd>+<kbd>&#x21E7;</kbd>+<kbd>5</kbd>"
+			},
+			{
+				"descJp":   "ビューを横2行に分割します。",
+				"descCn":   "将编辑区屏幕分为2行。",
+				"descEn":   "Split view into two rows.",
+				"keypress": "<kbd>Alt</kbd>+<kbd>&#x21E7;</kbd>+<kbd>8</kbd>"
+			},
+			{
+				"descJp":   "1から4までのキーで指定したビュー（グループ）に移動します。",
+				"descCn":   "跳转到对应数字1-4组编辑区。",
+				"descEn":   "Jump to group where num is 1-4.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>[Num]</kbd>"
+			},
+			{
+				"descJp":   "フォーカスの当たっているタブを、1から4までのキーで指定したビュー（グループ）に移動します。",
+				"descCn":   "将焦点所在文件（标签页）移动到1-4数字对应的组编辑区。",
+				"descEn":   "Move file to specified group where num is 1-4.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>&#x21E7;</kbd>+<kbd>[Num]</kbd>"
+			}
+		],
+		"category": "Split window"
+	},
+	"tabs": {
+		"data": [
+			{
+				"descJp":   "最後に閉じたタブ（ファイル）を開きます。",
+				"descCn":   "打开最后关闭的标签页（文件）。",
+				"descEn":   "Open last closed tab.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>&#x21E7;</kbd>+<kbd>T</kbd>"
+			},
+			{
+				"descJp":   "表示（フォーカス）するタブを一つ前のモノに切り替えます。",
+				"descCn":   "将显示（焦点）标签页切换到上一个标签页。",
+				"descEn":   "Cycle up through tabs.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>PgUp</kbd>"
+			},
+			{
+				"descJp":   "表示（フォーカス）するタブを一つ後ろのモノに切り替えます。",
+				"descCn":   "将显示（焦点）标签页切换到下一个标签页。",
+				"descEn":   "Cycle down through tabs.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>PgDn</kbd>"
+			},
+			{
+				"descJp":   "カーソル移動を単語単位で行います。",
+				"descCn":   "以词为单位进行左右移动光标。",
+				"descEn":   "Find in files.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>&#8644;</kbd>"
+			}
+		],
+		"category": "Tabs"
+	},
+	"editing": {
+		"data": [
+			{
+				"descJp":   "カーソルのある行を削除します。",
+				"descCn":   "删除光标所在行",
+				"descEn":   "Delete line.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>X</kbd>"
+			},
+			{
+				"descJp":   "カーソルのある行の一つ下に改行を追加します。",
+				"descCn":   "在光标的下一行添加换行符。",
+				"descEn":   "Insert line after.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>&#x23ce;</kbd>"
+			},
+			{
+				"descJp":   "カーソルのある行の一つ上に改行を追加します。",
+				"descCn":   "在光标的上一行添加换行符。",
+				"descEn":   "Insert line before.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>&#x21E7;</kbd>+<kbd>&#x23ce;</kbd>"
+			},
+			{
+				"descJp":   "カーソルのある行を、一つ上の行と入れ替えます。",
+				"descCn":   "光标所在行和上一行互换。",
+				"descEn":   "Move line/selection up.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>&#x21E7;</kbd>+<kbd>&#8593;</kbd>"
+			},
+			{
+				"descJp":   "カーソルのある行を、一つ下の行と入れ替えます。",
+				"descCn":   "光标所在行和下一行互换。",
+				"descEn":   "Move line/selection down.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>&#x21E7;</kbd>+<kbd>&#8595;</kbd>"
+			},
+			{
+				"descJp":   "カーソルのある行を選択します。連続して入力するとカーソルのある行の下の行も順に追加選択されます。",
+				"descCn":   "行选择 - 连续输入则将选中区域扩展到下一行。",
+				"descEn":   "Select line - Repeat to select next lines.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>L</kbd>"
+			},
+			{
+				"descJp":   "カーソルのあるテキストを選択し、同じ文字列全てに照準を合わせます。",
+				"descCn":   "单词选择 - 连续输入则将选中区域扩展到下一个相同的单词。",
+				"descEn":   "Select word - Repeat select others occurrences.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>D</kbd>"
+			},
+			{
+				"descJp":   "カーソルのあるブロックの閉じ括弧、および開き括弧へ交互にジャンプします。",
+				"descCn":   "跳转到匹配的括弧。",
+				"descEn":   "Jump to closing parentheses. Repeat to jump to opening parentheses.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>M</kbd>"
+			},
+			{
+				"descJp":   "カーソルのあるブロック内の全要素を選択します。",
+				"descCn":   "选则封闭模块内所有内容。",
+				"descEn":   "Select all contents of the current parentheses.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>&#x21E7;</kbd>+<kbd>M</kbd>"
+			},
+			{
+				"descJp":   "カーソル位置から行末までの文字列を削除します。",
+				"descCn":   "从光标所在位置删除到行末尾。",
+				"descEn":   "Delete from cursor to end of line.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>K</kbd><kbd>K</kbd>"
+			},
+			{
+				"descJp":   "カーソル位置から行の先頭までの文字列を削除します。",
+				"descCn":   "从光标所在位置删除到行开始。",
+				"descEn":   "Delete from cursor to start of line.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>K</kbd>+<kbd>⌫</kbd>"
+			},
+			{
+				"descJp":   "選択している行のインデントを一つ下げます。（※複数行可能）",
+				"descCn":   "增加缩进。（※可多行）",
+				"descEn":   "Indent line(s).",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>]</kbd>"
+			},
+			{
+				"descJp":   "選択している行のインデントを一つ上げます。（※複数行可能）",
+				"descCn":   "减少缩进。（※可多行）",
+				"descEn":   "Un-indent line(s).",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>[</kbd>"
+			},
+			{
+				"descJp":   "選択している行を複製します。（※複数行選択可能）",
+				"descCn":   "复写选择区域。 （※可多行）",
+				"descEn":   "Duplicate line(s).",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>&#x21E7;</kbd>+<kbd>D</kbd>"
+			},
+			{
+				"descJp":   "カーソルのある行と一つ下の行を、一行に連結します。",
+				"descCn":   "将下一行和当前行连接。",
+				"descEn":   "Join line below to the end of the current line.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>J</kbd>"
+			},
+			{
+				"descJp":   "選択している行のラインコメント/コメント解除を切り替えます。（※複数行選択可能）",
+				"descCn":   "对所选区域进行 注释/取消注释。",
+				"descEn":   "Comment/un-cwomment current line.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>/</kbd>"
+			},
+			{
+				"descJp":   "選択している文字列のブロックコメント/コメント解除を切り替えます。",
+				"descCn":   "对所选区域进行 块注释/取消块注释。",
+				"descEn":   "Block comment current selection.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>&#x21E7;</kbd>+<kbd>/</kbd>"
+			},
+			{
+				"descJp":   "最後に実行したキーボード操作を、再実行します。",
+				"descCn":   "重做或执行上一次快捷键命令。",
+				"descEn":   "Redo, or repeat last keyboard shortcut command.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>Y</kbd>"
+			},
+			{
+				"descJp":   "インデントが付与された状態で貼り付けが実行されます。",
+				"descCn":   "根据当前缩进进行粘贴。",
+				"descEn":   "Paste and indent correctly.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>&#x21E7;</kbd>+<kbd>V</kbd>"
+			},
+			{
+				"descJp":   "オートコンプリート機能を呼び出します。",
+				"descCn":   "显示自动补全。",
+				"descEn":   "Select next auto-complete suggestion.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>Space</kbd>"
+			},
+			{
+				"descJp":   "アンドゥを実行する前に最後の変更箇所にカーソルをジャンプさせます。もう一度同じ操作をすることでアンドゥが実行されます。",
+				"descCn":   "软撤销。在执行撤消之前将光标移动到最后一个更改点。通过再次执行相同的操作来执行撤消。",
+				"descEn":   "soft undo; jumps to your last change before undoing change when repeated.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>U</kbd>"
+			}
+		],
+		"category": "Editing"
+	},
+	"codeFolding": {
+		"data": [
+			{
+				"descJp":   "全てのタグを折りたたみます。",
+				"descCn":   "折叠选中区域代码。",
+				"descEn":   "Fold tag Attributes.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>K</kbd><kbd>T</kbd>"
+			},
+			{
+				"descJp":   "折りたたまれたタグを元に戻します。",
+				"descCn":   "取消折叠选中区域代码。",
+				"descEn":   "Unfold All tags.",
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>K</kbd><kbd>J</kbd>"
+			}
+		],
+		"category": "Code folding"
+	}
+}
